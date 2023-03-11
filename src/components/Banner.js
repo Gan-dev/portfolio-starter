@@ -2,7 +2,7 @@ import React from 'react';
 //Images
 import Image from '../assets/avatar.svg'
 //icons
-import { FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa';
 //type animation
 import { TypeAnimation } from 'react-type-animation';
 //motion
@@ -38,18 +38,18 @@ const Banner = () => {
           <motion.p variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.7}} className='mb-8 max-w-lg mx-auto lg:mx-0'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id nisl sed nulla efficitur interdum.</motion.p>
             <motion.div  variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex justify-center gap-x-6 items-center mb-12 mx-auto lg:justify-start '>
               <button className='btn btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>My portafolio</a>
+              <a href='https://parlamentoeuropeo.netlify.app/dist/perfil.html' className='text-gradient btn-link'>My portafolio</a>
             </motion.div>
             {/*Socials */}
             <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex text-[20px] gap-x-6  max-auto justify-center lg:max-w-max'>
-              <a href='#'>
-                <FaYoutube/>
+              <a href='https://www.facebook.com/GanCDev/?paipv=0&eav=AfY43ARchIuiGssprPfSYmP_iJlfAb5qhPPYKhKg1qpo76unNWHIw37ERV5KeISlEFg&_rdr'>
+                <FaFacebook/>
               </a>
-              <a href='#'>
+              <a href='https://github.com/Gan-dev'>
                 <FaGithub/>
               </a>
-              <a href='#'>
-                <FaDribbble/>
+              <a href='https://www.instagram.com/gustaavo.cj/'>
+                <FaInstagram/>
               </a>
             </motion.div>
         </div>
